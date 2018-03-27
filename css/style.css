@@ -283,14 +283,14 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/map.png");
   background-repeat: no-repeat;
   background-position: 100px 23px;
-  overflow: hidden;
+
 }
 
 .text-wrapper {
   display: flex;
   flex-direction: column;
   width: 375px;
-  margin-right: 83px;
+  margin-right: 100px;
 }
 
 .heading {
@@ -349,11 +349,16 @@ input[type="radio"].visually-hidden {
   letter-spacing: 0px;
 }
 
-.pictures-wrapper {
+.first-pic {
   position: relative;
+  top: -237px;
+  left: 90px;
+  width: 806px;
+  height: 570px;
 }
 
-.pic-wrapper {
-  position: absolute;
-  top: -300px;
+.second-pic {
+  position: relative;
+  top: -499px;
+  left: 0;
 }
