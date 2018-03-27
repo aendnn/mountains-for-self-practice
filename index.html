@@ -60,77 +60,78 @@
       </section>
     </div>
   </header>
-  <main class="container">
+  <main>
     <section class="about-us">
-      <div class="text-wrapper">
-        <h2 class="heading about-us-heading">About us</h2>
-        <p class="desc about-us-desc">
-          Aliquam sed posuere urna, et gravida nisl. Praesent
-          interdum nisl libero, pretium egestas purus eleifend
-          vitae. Mauris suscipit vel lectus at luctus.
-        </p>
-        <a class="btn about-us-btn" href="about-us.html">Read more</a>
-      </div>
-      <div class="pictures-wrapper">
-          <img class="our-pic first-pic" src="img/about-us-1.jpg" width="806" height="570" alt="Three girls are sitting on the mountain and taking a selfie">
-          <img class="our-pic second-pic" src="img/about-us-2.jpg" width="350" height="350" alt="Mountain landscape">
+      <div class="container">
+        <div class="text-wrapper">
+          <h2 class="about-us-heading">About us</h2>
+          <p class="desc about-us-desc">
+            Aliquam sed posuere urna, et gravida nisl. Praesent
+            interdum nisl libero, pretium egestas purus eleifend
+            vitae. Mauris suscipit vel lectus at luctus.
+          </p>
+          <a class="btn about-us-btn" href="about-us.html">Read more</a>
+        </div>
+        <div class="pictures-wrapper">
+            <img class="our-pic first-pic" src="img/about-us-1.jpg" width="806" height="570" alt="Three girls are sitting on the mountain and taking a selfie">
+            <img class="our-pic second-pic" src="img/about-us-2.jpg" width="350" height="350" alt="Mountain landscape">
+        </div>
       </div>
     </section>
     <section class="journal">
-      <h2 class="heading journal-heading">Our journal</h2>
-      <ul class="album">
-        <li class="album-item">
-          <section class="post">
-            <img class="post-pic"src="#" alt="Mountains landscape">
-            <div class="post-wrapper">
-              <span class="post-name">Love</span>
-              <b class="post-info">
-                Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit, sed do
-              </b>
-              <p class="post-text">
-                You know how to make best coffee in the universe?
-                Or, maybe you’re very good in designing gloves?
-                Tell everyone about your experience and skills.
-              </p>
-              <span class="post-counter">01</span>
-            </div>
-          </section>
-        </li>
-        <li class="album-item">
-          <section class="post">
-            <div class="post-wrapper">
-              <span class="post-name">Tree</span>
-              <b class="post-info">
-                Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit,
-              </b>
-              <p class="post-text">
-                The way to a successful brand is hard, but always very interesting.
-                Share the full story of your project – from the very first day until now.
-              </p>
-              <span class="post-counter">02</span>
-            </div>
-            <img class="post-pic"src="#" alt="A lake and mountains landscape">
-          </section>
-        </li>
-        <li class="album-item">
-          <section class="post">
-            <img class="post-pic"src="#" alt="Trees and mountains landscape">
-            <div class="post-wrapper">
-              <span class="post-name">Water</span>
-              <b class="post-info">
-                LITTLE PIECES OF OUR PROUDNESS
-              </b>
-              <p class="post-text">
-                What do you do better than your competitors? What are you proud of?
-                What details and advantages of your product you want people to know about?
-              </p>
-              <span class="post-counter">03</span>
-            </div>
-          </section>
-        </li>
-      </ul>
+      <div class="container">
+        <h2 class="heading journal-heading">Our journal</h2>
+        <ul class="album">
+          <li class="album-item pic-item">
+            <img class="post-pic" src="img/post-1.jpg" width="380" height="380" alt="Mountains landscape">
+          </li>
+          <li class="album-item text-item">
+           <span class="post-name">Love</span>
+            <b class="post-info">
+              Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit, sed do
+            </b>
+            <p class="post-text">
+              You know how to make best coffee in the universe?
+              Or, maybe you’re very good in designing gloves?
+              Tell everyone about your experience and skills.
+            </p>
+            <span class="post-counter">01</span>
+          </li>
+          <li class="album-item pic-item">
+              <h4 class="visually-hidden">Information about our company</h4>
+              <div class="post-wrapper">
+                <span class="post-name">Tree</span>
+                <b class="post-info">
+                  Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit,
+                </b>
+                <p class="post-text">
+                  The way to a successful brand is hard, but always very interesting.
+                  Share the full story of your project – from the very first day until now.
+                </p>
+                <span class="post-counter">02</span>
+              </div>
+              <img class="post-pic" src="img/post-2.jpg" width="380" height="380" alt="A lake and mountains landscape">
+            </li>
+            <section class="post water-post">
+              <h4 class="visually-hidden">Information about our company</h4>
+              <img class="post-pic" src="img/post-3.jpg" width="381" height="380" alt="Trees and mountains landscape">
+              <div class="post-wrapper">
+                <span class="post-name">Water</span>
+                <b class="post-info">
+                  LITTLE PIECES OF OUR PROUDNESS
+                </b>
+                <p class="post-text">
+                  What do you do better than your competitors? What are you proud of?
+                  What details and advantages of your product you want people to know about?
+                </p>
+                <span class="post-counter">03</span>
+              </div>
+            </section>
+        </ul>
+      </>
+    </ul>
     </section>
     <section class="feedback">
       <h2 class="heading feedback-heading">Do you wanna go?</h2>
@@ -255,6 +256,7 @@
       <img class="gallery-photo" src="#" alt="A man is taking a photo and seeing nature">
     </section>
     <section class="brands">
+      <h3 class="visually-hidden">Our partners</h3>
       <a class="brands-item" href="#">
         <img src="#" alt="Slack">
       </a>
@@ -278,32 +280,28 @@
       <h2 class="heading clients-heading">Our clients say</h2>
       <ul class="opinions-list">
         <li class="opinion-item">
-          <p class="opinion-text">
-            <blockquote>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              <cite>
-                <img src="#" alt="Pavliv Yaroslav">
-                <span class="client-name">Pavliv Yaroslav</span>
-                <span class="client-job">Web designer</span>
-              </cite>
-            </blockquote>
-          </p>
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            <cite>
+              <img src="#" alt="Pavliv Yaroslav">
+              <span class="client-name">Pavliv Yaroslav</span>
+              <span class="client-job">Web designer</span>
+            </cite>
+          </blockquote>
         </li>
         <li class="opinion-item">
-          <p class="opinion-text">
-            <blockquote>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              <cite>
-                <img src="#" alt="John Scott">
-                <span class="client-name">John Scott</span>
-                <span class="client-job">The fringe</span>
-              </cite>
-            </blockquote>
-          </p>
+          <blockquote class="opinion-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            <cite>
+              <img src="#" alt="John Scott">
+              <span class="client-name">John Scott</span>
+              <span class="client-job">The fringe</span>
+            </cite>
+          </blockquote>
         </li>
       </ul>
     </section>

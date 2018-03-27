@@ -275,57 +275,55 @@ input[type="radio"].visually-hidden {
   margin-left: 5px;
 }
 
-.about-us {
+.about-us .container {
   position: relative;
   z-index: 25;
   display: flex;
+}
+
+.about-us {
+  margin-bottom: 104px;
   padding-top: 200px;
+  padding-bottom: 233px;
   background-image: url("../img/map.png");
   background-repeat: no-repeat;
-  background-position: 100px 23px;
-
+  background-position: 204px 23px;
+  background-color: #f6f4f4;
 }
 
 .text-wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 375px;
   margin-right: 100px;
 }
 
-.heading {
+.about-us-heading {
   position: relative;
   margin: 0;
   padding: 0;
+  padding-top: 40px;
+  margin-bottom: 10px;
   font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 42px;
   font-weight: 700;
-  text-align: center;
   text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 1.5px;
   color: #2c2e37;
 }
 
-.heading::before {
+.about-us-heading::before {
   content: "";
   position: absolute;
+  top: 0;
+  left: 0;
   width: 81px;
   height: 7px;
   background-image: url("../img/waves.svg");
   background-repeat: no-repeat;
-}
-
-.about-us-heading {
-  padding-top: 40px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  text-align: left;
-  letter-spacing: 1.5px;
-}
-
-.about-us-heading::before {
-  top: 0;
-  left: 0;
 }
 
 .desc {
@@ -349,9 +347,15 @@ input[type="radio"].visually-hidden {
   letter-spacing: 0px;
 }
 
+.pictures-wrapper {
+  position: absolute;
+  top: -237px;
+  left: 472px;
+  width: 697px;
+}
+
 .first-pic {
   position: relative;
-  top: -237px;
   left: 90px;
   width: 806px;
   height: 570px;
@@ -359,6 +363,120 @@ input[type="radio"].visually-hidden {
 
 .second-pic {
   position: relative;
-  top: -499px;
+  top: -262px;
   left: 0;
+}
+
+.journal .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  position: relative;
+  align-content: center;
+  display: inline-flex;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #2c2e37;
+}
+
+.heading::before {
+  content: "";
+  position: absolute;
+  top: -33px;
+  left: 73px;
+  right: 73px;
+  width: 81px;
+  height: 7px;
+  background-image: url("../img/waves.svg");
+  background-repeat: no-repeat;
+}
+
+.journal-heading {
+  margin-bottom: 67px;
+}
+
+.album {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.post-pic {
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+}
+
+.post-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 391px;
+  height: 380px;
+  background-image: url("../img/post-bg.png");
+  background-repeat: no-repeat;
+}
+
+.love-post {
+  position: relative;
+}
+
+.love-post::before {
+  content: "";
+  position: absolute;
+  top: 151px;
+  left: 151px;
+  width: 81px;
+  height: 81px;
+  background-image: url("../img/css_sprites.png");
+  background-repeat: no-repeat;
+  background-position: -10px -10px;
+}
+
+.post-name {
+  font-size: 11px;
+  line-height: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #16b5ef;
+}
+
+.post-info {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #212121;
+}
+
+.post-text {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+  color: #777777;
+}
+
+.post-counter {
+  font-family: "Times New Roman", "Georgia", serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  text-align: center;
+  color: #212121;
 }
