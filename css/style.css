@@ -990,3 +990,42 @@ input[type="radio"].visually-hidden {
   font-weight: 800;
   color: #ffffff;
 }
+
+.gallery {
+  padding-top: 95px;
+}
+
+.gallery .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-heading {
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.pictures-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1140px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pictures-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 29px;
+}
+
+.pictures-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pictures-item img {
+  display: block;
+  margin-bottom: 30px;
+}
