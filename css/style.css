@@ -1072,6 +1072,14 @@ input[type="radio"].visually-hidden {
   margin-right: 0;
 }
 
+.clients {
+  padding-bottom: 700px;
+  background-image: url("../img/clients-bg-2.png"),
+                    url("../img/clients-bg-1.png");
+  background-repeat: no-repeat;
+  background-position: -280px 339px, -286px 48px;
+}
+
 .clients .container {
   display: flex;
   flex-direction: column;
@@ -1153,4 +1161,128 @@ input[type="radio"].visually-hidden {
 
 .client-job {
   font-weight: 300;
+}
+
+.subscribe {
+  position: relative;
+}
+
+.subscribe .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-wrapper {
+  position: absolute;
+  top: -595px;
+  left: 287px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-image: url("../img/form-bg.png");
+  background-repeat: no-repeat;
+}
+
+.contacts-item {
+  width: 460px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.subscribe-heading {
+  margin: 0 auto;
+  margin-bottom: 2px;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #36aeea;
+}
+
+.subscribe-heading::before {
+  display: none;
+}
+
+.subscribe-desc {
+  margin: 0 auto;
+  margin-bottom: 28px;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #383e4a;
+}
+
+.contacts-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contacts-item input[type="text"],
+.contacts-item input[type="number"] {
+  width: 455px;
+  padding: 19px 18px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #cccccc;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+}
+
+.contacts-item input[type="text"]::-webkit-input-placeholder,
+.contacts-item input[type="number"]::-webkit-input-placeholder {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.contacts-item input[type="text"]::-moz-placeholder,
+.contacts-item input[type="number"]::-moz-placeholder {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+
+.contacts-item input[type="text"]:-ms-input-placeholder,
+.contacts-item input[type="number"]:-ms-input-placeholder {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.contacts-item input[type="text"]::placeholder
+.contacts-item input[type="number"]::placeholder {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.contacts-btn {
+  width: 455px;
+  padding: 28px;
+  margin: 0 auto;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
 }
