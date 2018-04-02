@@ -992,6 +992,7 @@ input[type="radio"].visually-hidden {
 }
 
 .gallery {
+  margin-bottom: 25px;
   padding-top: 95px;
 }
 
@@ -1028,4 +1029,45 @@ input[type="radio"].visually-hidden {
 .pictures-item img {
   display: block;
   margin-bottom: 30px;
+}
+
+.brands {
+  padding-top: 70px;
+  padding-bottom: 65px;
+  background-color: #f8f9fa;
+}
+
+.brands-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.brands-item {
+  margin-right: 155px;
+  padding: 34px 0;
+}
+
+.brands-item:nth-child(2) {
+  padding: 29px 0;
+}
+
+.brands-item:nth-child(3) {
+  margin-right: 133px;
+}
+
+.brands-item:nth-child(4) {
+  padding: 37px 0;
+  margin-right: 132px;
+}
+
+.brands-item:nth-child(5) {
+  margin-right: 137px;
+}
+
+.brands-item:last-child {
+  margin-right: 0;
 }
