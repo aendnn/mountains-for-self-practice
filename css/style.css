@@ -375,7 +375,6 @@ input[type="radio"].visually-hidden {
 
 .heading {
   position: relative;
-  align-content: center;
   display: inline-flex;
   margin: 0;
   padding: 0;
@@ -992,7 +991,7 @@ input[type="radio"].visually-hidden {
 }
 
 .gallery {
-  margin-bottom: 25px;
+  margin-bottom: 48px;
   padding-top: 95px;
 }
 
@@ -1032,8 +1031,9 @@ input[type="radio"].visually-hidden {
 }
 
 .brands {
+  margin-bottom: 102px;
   padding-top: 70px;
-  padding-bottom: 65px;
+  padding-bottom: 58px;
   background-color: #f8f9fa;
 }
 
@@ -1048,11 +1048,11 @@ input[type="radio"].visually-hidden {
 
 .brands-item {
   margin-right: 155px;
-  padding: 34px 0;
+  padding: 10px 0;
 }
 
 .brands-item:nth-child(2) {
-  padding: 29px 0;
+  padding: 5px 0;
 }
 
 .brands-item:nth-child(3) {
@@ -1060,7 +1060,7 @@ input[type="radio"].visually-hidden {
 }
 
 .brands-item:nth-child(4) {
-  padding: 37px 0;
+  padding: 14px 0;
   margin-right: 132px;
 }
 
@@ -1070,4 +1070,87 @@ input[type="radio"].visually-hidden {
 
 .brands-item:last-child {
   margin-right: 0;
+}
+
+.clients .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.clients-heading {
+  margin: 0 auto;
+  margin-bottom: 114px;
+}
+
+.opinions-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0;
+  margin-left: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.opinion-item {
+  width: 555px;
+}
+
+.opinion-wrapper {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.opinion-text {
+  position: relative;
+  width: 530px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #bcbcbc;
+}
+
+.opinion-text::before {
+  content: "";
+  position: absolute;
+  top: -32px;
+  left: 0;
+  width: 24px;
+  height: 22px;
+  background-image: url("../img/quotes.png");
+  background-repeat: no-repeat;
+}
+
+.author {
+  display: block;
+  margin-top: 22px;
+}
+
+.author img {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  margin-right: 15px;
+  vertical-align: top;
+}
+
+.client-name,
+.client-job {
+  display: inline-block;
+  margin-top: 17px;
+  font-size: 16px;
+  line-height: 33px;
+  font-weight: 700;
+  font-style: normal;
+  vertical-align: middle;
+  color: #36aeea;
+}
+
+.client-job {
+  font-weight: 300;
 }
