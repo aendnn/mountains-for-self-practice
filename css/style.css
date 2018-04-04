@@ -1073,11 +1073,11 @@ input[type="radio"].visually-hidden {
 }
 
 .clients {
-  padding-bottom: 700px;
+  padding-bottom: 800px;
   background-image: url("../img/clients-bg-2.png"),
                     url("../img/clients-bg-1.png");
   background-repeat: no-repeat;
-  background-position: -280px 339px, -286px 48px;
+  background-position: -284px 184px, -287px 48px;
 }
 
 .clients .container {
@@ -1174,7 +1174,7 @@ input[type="radio"].visually-hidden {
 
 .subscribe-wrapper {
   position: absolute;
-  top: -595px;
+  top: -696px;
   left: 287px;
   display: flex;
   flex-direction: column;
@@ -1214,7 +1214,7 @@ input[type="radio"].visually-hidden {
 
 .subscribe-desc {
   margin: 0 auto;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 29px;
   font-weight: 400;
@@ -1285,4 +1285,124 @@ input[type="radio"].visually-hidden {
   border: 0;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.main-footer {
+  padding: 23px 0;
+  background-color: #3c545c;
+}
+
+.main-footer .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.copyright {
+  width: 250px;
+  margin: 0;
+  margin-right: 242px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.social-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 166px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-item {
+  margin-right: 6px;
+}
+
+.social-link {
+  position: relative;
+  display: block;
+  width: 39px;
+  height: 39px;
+}
+
+.social-link:active {
+  transform: translateY(5px);
+}
+
+.social-link::before {
+  content: "";
+  position: absolute;
+}
+
+.twi-link {
+  background-color: #29c5f6;
+}
+
+.twi-link:hover,
+.twi-link:focus {
+  background-color: #0dacde;
+}
+
+.fb-link {
+  background-color: #6788ce;
+}
+
+.fb-link:hover,
+.fb-link:focus {
+  background-color: #446abb;
+}
+
+.vk-link {
+  background-color: #54769a;
+}
+
+.vk-link:hover,
+.vk-link:focus {
+  background-color: #2f5883;
+}
+
+.twi-link::before {
+  top: 14px;
+  left: 12px;
+  width: 23px;
+  height: 16px;
+  background-image: url("../img/twitter.svg");
+  background-repeat: no-repeat;
+}
+
+.fb-link::before {
+  top: 12px;
+  left: 16px;
+  width: 21px;
+  height: 20px;
+  background-image: url("../img/facebook.svg");
+  background-repeat: no-repeat;
+}
+
+.vk-link::before {
+  top: 14px;
+  left: 10px;
+  width: 32px;
+  height: 33px;
+  background-image: url("../img/vk.png");
+  background-repeat: no-repeat;
+}
+
+.tel {
+  display: block;
+  margin-top: 4px;
+  margin-left: auto;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 27px;
+  line-height: 27px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
 }
