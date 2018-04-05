@@ -342,7 +342,7 @@ input[type="radio"].visually-hidden {
 .pictures-wrapper {
   position: absolute;
   top: -237px;
-  left: 430px;
+  left: 425px;
   width: 697px;
 }
 
@@ -400,7 +400,7 @@ input[type="radio"].visually-hidden {
 }
 
 .journal-heading {
-  margin: 0 auto;
+  align-self: center;
   margin-bottom: 67px;
 }
 
@@ -764,7 +764,7 @@ input[type="radio"].visually-hidden {
 }
 
 .features-heading {
-  margin: 0 auto;
+  align-self: center;
   margin-bottom: 60px;
 }
 
@@ -953,7 +953,7 @@ input[type="radio"].visually-hidden {
 }
 
 .travels-heading {
-  margin: 0 auto;
+  align-self: center;
   margin-bottom: 88px;
 }
 
@@ -1089,7 +1089,7 @@ input[type="radio"].visually-hidden {
 }
 
 .gallery-heading {
-  margin: 0 auto;
+  align-self: center;
   margin-bottom: 64px;
 }
 
@@ -1206,7 +1206,7 @@ input[type="radio"].visually-hidden {
 }
 
 .clients-heading {
-  margin: 0 auto;
+  align-self: center;
   margin-bottom: 114px;
 }
 
@@ -1344,7 +1344,7 @@ input[type="radio"].visually-hidden {
 }
 
 .subscribe-heading {
-  margin: 0 auto;
+  align-self: center;
   margin-bottom: 2px;
   font-size: 36px;
   line-height: 36px;
@@ -1359,7 +1359,7 @@ input[type="radio"].visually-hidden {
 }
 
 .subscribe-desc {
-  margin: 0 auto;
+  align-self: center;
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 29px;
